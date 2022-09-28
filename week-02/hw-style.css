@@ -19,7 +19,8 @@ img {
         background-image: url('https://cutewallpaper.org/24/animated-transparent-gif/gifs-for-grownups-colourverse.gif');
         background-repeat: no-repeat;
         background-size: auto;
-        background-position: center;
+        background-position: top center;
+        text-align: center;
     }
 
     nav ul {
@@ -38,6 +39,21 @@ img {
         font-size: 50px;
     }
 
+    #red {
+        visibility: visible;
+    }
+    #blue {
+        visibility: hidden;
+    }
+
+    #green {
+        visibility: hidden;
+    }
+
+    p {
+        padding: 0 80px 0 80px;
+    }
+
     }
 
  @media (min-width: 600px){
@@ -49,6 +65,7 @@ img {
         background-repeat: no-repeat;
         background-size: 50%;
         background-position: center center;
+        text-align: center;
     }
 
     nav ul {
@@ -67,6 +84,19 @@ img {
         font-size: 80px;
     }
 
+    #red {
+        visibility: hidden;
+    }
+
+    #green {
+        visibility: visible;
+    }
+    #blue {
+        visibility: hidden;
+    }
+
+    
+
 }
 
 @media (min-width: 900px){
@@ -78,6 +108,7 @@ img {
         background-repeat: no-repeat;
         background-size: 50%;
         background-position: center center;
+        text-align: center;
     }
 
     nav ul {
@@ -96,8 +127,31 @@ img {
         font-size: 200px;
     }
 
+    #red {
+        visibility: hidden;
+    }
+
+    #green {
+        visibility: hidden;
+    }
+
+    #blue {
+        visibility: visible;
+    }
+
     }
 
 
 /* Main Section Styles */
 
+    p {
+        font-size: 1.25em;
+        color: white;
+    }
+
+    a {
+        color: yellow;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 3em;
+    }
