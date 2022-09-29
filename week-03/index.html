@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main {
+            height: 100vh;
+        }
+    </style>
+    <title>Workshop Week 03: Buttons Doing Things (Javascript)</title>
+</head>
+<body>
+    <header>
+        <button role="button" id="colorChange">Click Me</button>
+    </header>
+    <main id="mainSection"></main>
+
+    <script>
+        let colorBtn = document.getElementById("colorChange")
+        const mainSect = document.getElementById("mainSection")
+        console.log(colorBtn)
+
+        colorBtn.addEventListener("click", () => {
+            let red = Math.random()*255
+            let blue = Math.random()*255
+            let green = Math.random()*255
+            console.log(blue)
+            mainSect.style.backgroundColor = "rgb(" + red + ", " + green + ", " + blue + ")"
+        })
+    </script>
+</body>
+</html>
