@@ -14,21 +14,11 @@
 <body>
     <header>
         <button role="button" id="colorChange">Click Me</button>
+        <button role="button" id="addText">Don't Click Me</button>
+        <button role="button" id="imageBtn">Image!</button>
     </header>
     <main id="mainSection"></main>
 
-    <script>
-        let colorBtn = document.getElementById("colorChange")
-        const mainSect = document.getElementById("mainSection")
-        console.log(colorBtn)
-
-        colorBtn.addEventListener("click", () => {
-            let red = Math.random()*255
-            let blue = Math.random()*255
-            let green = Math.random()*255
-            console.log(blue)
-            mainSect.style.backgroundColor = "rgb(" + red + ", " + green + ", " + blue + ")"
-        })
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
