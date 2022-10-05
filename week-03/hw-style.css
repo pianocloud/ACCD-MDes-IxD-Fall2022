@@ -9,54 +9,90 @@ img {
 }
 
 /* Header Styles */
-body {
-    background-color: black;
-    font-family: 'Work Sans', sans-serif;
-    text-align: center;
-    font-size: 16px;
-    line-height: 22px;
-    color: white;
-    border: 2px;
+
+@media (min-width: 900px) {
+    body {
+        background-color: black;
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ababab;
+        border: 2px;
+    }
+    
+    header {
+        margin: 0 30% 0 30%;
+        padding: 40px;
+    }
+    
+    main {
+        border: solid 5px #121212;
+        margin: 0 30% 0 30%;
+        padding: 60px;
+    }
+    
+    nav {
+        margin: 0 30% 0 30%;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    nav li {
+        border-bottom: none;
+        color: white;
+        list-style: none;
+        margin: auto;
+    }
+    
+    h1 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 1.01em;
+    }
+    
+    p {
+        padding: 0 80px 0 80px;
+    }
+
+    .image_off, #macha:hover .image_on{
+        display:block
+     }
+    .image_on, #macha:hover .image_off{
+        display:none
+     }
+    .image_off, #upa:hover .image_on{
+        display:block
+     }
+    .image_on, #upa:hover .image_off{
+        display:none
+     }
+    .image_off, #manqu:hover .image_on{
+        display:block
+     }
+    .image_on, #manqu:hover .image_off{
+        display:none
+     }
+    .image_off, #puma:hover .image_on{
+        display:block
+     }
+    .image_on, #puma:hover .image_off{
+        display:none
+     }
+
+
+
 }
 
-header {
-    border: solid 1px blue;
-    margin: 4% 20% 2% 20%;
-    padding: 20px;
-}
-
-nav {
-    margin: 0 30% 0 30%;
-    align-items: center;
-}
-nav ul {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding-top: 30px;
-    border: solid 1px red;
-}
-
-nav li {
-    border-bottom: none;
-    color: white;
-    list-style: none;
-    margin: auto;
-}
-
-h1 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 1.01em;
-}
-
-p {
-    padding: 0 80px 0 80px;
-}
 
 
 /* Main Section Styles */
