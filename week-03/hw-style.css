@@ -10,7 +10,250 @@ img {
 
 /* Header Styles */
 
+@media (min-width: 300px) {
+    body {
+        background-color: black;
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ababab;
+        border: 2px;
+    }
+    
+    header {
+        margin: 0;
+        padding: 40px 0 20px 0;
+    }
+    
+    main {
+        border: solid 5px #121212;
+        margin: 0;
+        padding: 60px;
+    }
+    
+    nav {
+        margin: 0;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    nav li {
+        border-bottom: none;
+        color: white;
+        list-style: none;
+        margin: auto;
+    }
+    
+    h1 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 1.01em;
+    }
+    
+    p {
+        padding: 0 80px 0 80px;
+    }
+
+    .image_off, #macha:hover .image_on{
+        display:block
+     }
+    .image_on, #macha:hover .image_off{
+        display:none
+     }
+    .image_off, #upa:hover .image_on{
+        display:block
+     }
+    .image_on, #upa:hover .image_off{
+        display:none
+     }
+    .image_off, #manqu:hover .image_on{
+        display:block
+     }
+    .image_on, #manqu:hover .image_off{
+        display:none
+     }
+    .image_off, #puma:hover .image_on{
+        display:block
+     }
+    .image_on, #puma:hover .image_off{
+        display:none
+     }
+
+}
+
+@media (min-width: 600px) {
+    body {
+        background-color: black;
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ababab;
+        border: 2px;
+    }
+    
+    header {
+        margin: 0 10% 0 10%;
+        padding: 40px;
+    }
+    
+    main {
+        border: solid 5px #121212;
+        margin: 0 10% 0 10%;
+        padding: 60px;
+    }
+    
+    nav {
+        margin: 0 10% 0 10%;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    nav li {
+        border-bottom: none;
+        color: white;
+        list-style: none;
+        margin: auto;
+    }
+    
+    h1 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 1.01em;
+    }
+    
+    p {
+        padding: 0 80px 0 80px;
+    }
+
+    .image_off, #macha:hover .image_on{
+        display:block
+     }
+    .image_on, #macha:hover .image_off{
+        display:none
+     }
+    .image_off, #upa:hover .image_on{
+        display:block
+     }
+    .image_on, #upa:hover .image_off{
+        display:none
+     }
+    .image_off, #manqu:hover .image_on{
+        display:block
+     }
+    .image_on, #manqu:hover .image_off{
+        display:none
+     }
+    .image_off, #puma:hover .image_on{
+        display:block
+     }
+    .image_on, #puma:hover .image_off{
+        display:none
+     }
+
+}
+
 @media (min-width: 900px) {
+    body {
+        background-color: black;
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ababab;
+        border: 2px;
+    }
+    
+    header {
+        margin: 0 20% 0 20%;
+        padding: 40px;
+    }
+    
+    main {
+        border: solid 5px #121212;
+        margin: 0 20% 0 20%;
+        padding: 60px;
+    }
+    
+    nav {
+        margin: 0 20% 0 20%;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    nav li {
+        border-bottom: none;
+        color: white;
+        list-style: none;
+        margin: auto;
+    }
+    
+    h1 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 1.01em;
+    }
+    
+    p {
+        padding: 0 80px 0 80px;
+    }
+
+    .image_off, #macha:hover .image_on{
+        display:block
+     }
+    .image_on, #macha:hover .image_off{
+        display:none
+     }
+    .image_off, #upa:hover .image_on{
+        display:block
+     }
+    .image_on, #upa:hover .image_off{
+        display:none
+     }
+    .image_off, #manqu:hover .image_on{
+        display:block
+     }
+    .image_on, #manqu:hover .image_off{
+        display:none
+     }
+    .image_off, #puma:hover .image_on{
+        display:block
+     }
+    .image_on, #puma:hover .image_off{
+        display:none
+     }
+
+}
+
+@media (min-width: 1400px) {
     body {
         background-color: black;
         font-family: 'Work Sans', sans-serif;
@@ -88,10 +331,6 @@ img {
     .image_on, #puma:hover .image_off{
         display:none
      }
-
-
-     
-
 
 }
 
