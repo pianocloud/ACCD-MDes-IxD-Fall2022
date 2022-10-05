@@ -21,7 +21,35 @@
         <p>The friends floated deep in the Cave of the Fates. Suspended and paralyzed, they watched as splices of each other’s memories projected against the smooth, glossy cave wall. Close now to their final destination. The end very near.</p>
     </header>
     <main>
-        <img src="img/demo-02.png">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="img/demo-02.png" style="width:100%">
+                <div class="text">Epsilon</div>
+            </div>
+                
+            <div class="mySlides fade">
+                <img src="img/demo-04.png" style="width:100%">
+                <div class="text">Onyx</div>
+            </div>
+                
+            <div class="mySlides fade">
+                <img src="img/demo-03.png" style="width:100%">
+                <div class="text">Laconic</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/demo-05.png" style="width:100%">
+                <div class="text">Writ Large</div>
+            </div>
+
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
     </main>
     <nav>
         <ul>
@@ -31,5 +59,7 @@
             <a id="puma"><img class="image_on" src="img/pumaON.png"><img class="image_off" src="img/pumaOFF.png"></a>
         </ul>
     </nav>
+
+    <script src="hw-script.js"></script>
 </body>
 </html>
