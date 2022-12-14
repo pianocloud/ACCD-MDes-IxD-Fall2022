@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finish your interface</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+</head>
+<body>
+    <h1>single channel controller</h1>
+    <h4>by pianocloud</h4>
+    <p>Create a simple signle-channel controller that would allow you to change one parameter in a Processing program by applying a value received from ESP32 via serial communication. Experiment with the parameters you can control with the values.</p>
+    <ol>
+        <li>Work with code from the workshop.</li>
+            <img src="img/01-sketch.jpg" alt="screenshot of canvas setup in p5.js editor">
+            <img src="img/02-sketch.jpg" alt="screenshot of canvas with a dark filled circle">
+        <li>Adjust color</li>
+            <img src="img/03-teaching-maching.png" alt="screenshot of p5.js editor with cleaner code">
+        <li>Worked with Maxim's example from class, but it didn't work. It took a while but finally realized I used Pose classifier instead of Image classifier which was a critical error. Lost time here.</li>
+            <img src="img/04-error.png" alt="screenshow of p5.js editor with newer code">
+        <li>Retrained machine using Image Classifier, and everything worked.</li>
+            <img src="img/04-retrain.png" alt="screenshow of p5.js editor with newer code">
+        <li>Next, I wanted to get the machine to do something when its confidence for something "Near" was 0.9 or greater. I got it to display a large green circle when something appeared "Near."</li>
+            <img src="img/05-far.png" alt="screenshot of circle made larger">
+            <img src="img/06-near.png" alt="screenshot of changing background color code">
+        <li>After, I worked on having the audio play. I got it to sort of work. Somethign in the code made it warp. Investigating.</li>
+            <img src="img/07-audio.png" alt="screenshot of a second p5.js editor with pinging square code">
+    </ol>
+
+    <iframe src="https://editor.p5js.org/pianocloud3000/full/v1JzyH4gu"></iframe>
+</body>
+</html>
